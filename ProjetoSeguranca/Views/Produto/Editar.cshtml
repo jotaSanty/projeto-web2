@@ -1,0 +1,23 @@
+@model ProjetoSeguranca.Models.Produto
+
+<h1>Editar Produto</h1>
+
+<div class="col-md-4">
+    <form method="post">
+        <input type="hidden" name="Id" value="@Model.Id" />
+        <div class="mb-3">
+            <label class="form-label">Nome:</label>
+            <input type="text" name="Nome" value="@Model.Nome" class="form-control" />
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Preço:</label>
+            <input type="text" name="Preco" value="@Model.Preco" class="form-control" />
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Quantidade:</label>
+            <input type="number" name="Quantidade" value="@Model.Quantidade" class="form-control" />
+        </div>
+        <button type="submit" class="btn btn-primary">Salvar</button>
+        <a href="/Produto" class="btn btn-secondary">Voltar</a>
+    </form>
+</div>
