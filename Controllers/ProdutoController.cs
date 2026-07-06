@@ -60,4 +60,14 @@ public class ProdutoController : Controller
     }
     return RedirectToAction("Index");
     }
+
+    public IActionResult Detalhes(int id)
+    {
+    var produto = produtos.FirstOrDefault(p => p.Id == id);
+    if (produto == null)
+    {
+            return NotFound();
+    }
+        return View(produto);
+    }
 }

@@ -105,3 +105,4 @@ C:\Users\Windows\Desktop\ProjetoWeb2\ProjetoSeguranca\obj\Debug\net8.0\refint\Pr
 C:\Users\Windows\Desktop\ProjetoWeb2\ProjetoSeguranca\obj\Debug\net8.0\ProjetoSeguranca.pdb
 C:\Users\Windows\Desktop\ProjetoWeb2\ProjetoSeguranca\obj\Debug\net8.0\ProjetoSeguranca.genruntimeconfig.cache
 C:\Users\Windows\Desktop\ProjetoWeb2\ProjetoSeguranca\obj\Debug\net8.0\ref\ProjetoSeguranca.dll
+C:\Users\Windows\Desktop\ProjetoWeb2\ProjetoSeguranca\obj\Debug\net8.0\ProjetoSeguranca.sourcelink.json
