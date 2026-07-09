@@ -1,0 +1,14 @@
+@model ProjetoSeguranca.Models.Produto
+
+<h1>Detalhes do Produto</h1>
+
+<div class="card col-md-4">
+    <div class="card-body">
+        <h5 class="card-title">@Model.Nome</h5>
+        <p><strong>Id:</strong> @Model.Id</p>
+        <p><strong>Preço:</strong> R$ @Model.Preco</p>
+        <p><strong>Quantidade:</strong> @Model.Quantidade</p>
+    </div>
+</div>
+
+<a href="/Produto" class="btn btn-secondary mt-3">Voltar</a>

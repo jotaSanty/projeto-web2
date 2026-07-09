@@ -1,0 +1,28 @@
+@model List<ProjetoSeguranca.Models.Produto>
+
+<h1>Produtos</h1>
+
+<a class="btn btn-primary mb-3" href="/Produto/Criar">Cadastrar novo produto</a>
+
+<table class="table table-striped">
+    <tr>
+        <th>Id</th>
+        <th>Nome</th>
+        <th>Preço</th>
+        <th>Quantidade</th>
+        <th>Ações</th>
+    </tr>
+    @foreach (var produto in Model)
+    {
+        <tr>
+            <td>@produto.Id</td>
+            <td><a href="/Produto/Detalhes/@produto.Id">@produto.Nome</a></td>
+            <td>@produto.Preco</td>
+            <td>@produto.Quantidade</td>
+            <td>
+                <a class="btn btn-warning btn-sm" href="/Produto/Editar/@produto.Id">Editar</a>
+                <a class="btn btn-danger btn-sm" href="/Produto/Deletar/@produto.Id">Excluir</a>
+            </td>
+        </tr>
+    }
+</table>
