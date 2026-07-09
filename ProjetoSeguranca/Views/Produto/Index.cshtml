@@ -16,12 +16,12 @@
     {
         <tr>
             <td>@produto.Id</td>
-            <td>@produto.Nome</td>
+            <td><a href="/Produto/Detalhes/@produto.Id">@produto.Nome</a></td>
             <td>@produto.Preco</td>
             <td>@produto.Quantidade</td>
             <td>
                 <a class="btn btn-warning btn-sm" href="/Produto/Editar/@produto.Id">Editar</a>
-                <a class="btn btn-danger btn-sm" href="/Produto/Deletar/@produto.Id">Excluir</a>
+                <a class="btn btn-danger btn-sm" href="/Produto/Deletar/@produto.Id" onclick="return confirm('Tem certeza que deseja excluir este produto?')">Excluir</a>
             </td>
         </tr>
     }

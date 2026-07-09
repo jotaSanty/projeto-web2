@@ -1,0 +1,6 @@
+bin/
+cat > .gitignore << 'EOF'
+bin/
+obj/
+*.user
+.vs/

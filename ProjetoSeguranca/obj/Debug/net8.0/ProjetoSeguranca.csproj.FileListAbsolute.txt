@@ -89,6 +89,7 @@ C:\Users\Windows\Desktop\ProjetoWeb2\ProjetoSeguranca\obj\Debug\net8.0\ProjetoSe
 C:\Users\Windows\Desktop\ProjetoWeb2\ProjetoSeguranca\obj\Debug\net8.0\ProjetoSeguranca.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Windows\Desktop\ProjetoWeb2\ProjetoSeguranca\obj\Debug\net8.0\ProjetoSeguranca.RazorAssemblyInfo.cache
 C:\Users\Windows\Desktop\ProjetoWeb2\ProjetoSeguranca\obj\Debug\net8.0\ProjetoSeguranca.RazorAssemblyInfo.cs
+C:\Users\Windows\Desktop\ProjetoWeb2\ProjetoSeguranca\obj\Debug\net8.0\ProjetoSeguranca.sourcelink.json
 C:\Users\Windows\Desktop\ProjetoWeb2\ProjetoSeguranca\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\Windows\Desktop\ProjetoWeb2\ProjetoSeguranca\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\Windows\Desktop\ProjetoWeb2\ProjetoSeguranca\obj\Debug\net8.0\staticwebassets\msbuild.ProjetoSeguranca.Microsoft.AspNetCore.StaticWebAssets.props

@@ -26,6 +26,7 @@ public class ProdutoController : Controller
     }
     produto.Id = produtos.Count + 1;
     produtos.Add(produto);
+    TempData["Sucesso"] = "Produto cadastrado com sucesso!";
     return RedirectToAction("Index");
     }
     
@@ -36,6 +37,7 @@ public class ProdutoController : Controller
     {
         produtos.Remove(produto);
     }
+    TempData["Sucesso"] = "Produto excluido com sucesso!";
     return RedirectToAction("Index");
     }
     public IActionResult Editar(int id)
@@ -58,6 +60,17 @@ public class ProdutoController : Controller
         existente.Preco = produto.Preco;
         existente.Quantidade = produto.Quantidade;
     }
+    TempData["Sucesso"] = "Produto atualizado com sucesso!";
     return RedirectToAction("Index");
+    }
+
+    public IActionResult Detalhes(int id)
+    {
+    var produto = produtos.FirstOrDefault(p => p.Id == id);
+    if (produto == null)
+    {
+            return NotFound();
+    }
+        return View(produto);
     }
 }
